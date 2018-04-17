@@ -1,0 +1,42 @@
+.help {
+    width: 850px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .box {
+        width: 787px;
+        margin: 0 auto;
+        .title {
+            font-size: 25px;
+            color: #333;
+            text-align: center;
+            padding-top: 20px;
+            line-height: 45px;
+            border-bottom: 1px solid #e1e1e1;
+        }
+        .content {
+            padding-top: 20px;
+            p {
+                line-height: 28px;
+                color: #333;
+                text-indent: 12px;
+                font-size: 14px;
+            }
+            .help-img {
+                width: 630px;
+                height: 330px;
+                overflow: hidden;
+                margin: 0 auto;
+                margin-top: 10px;
+                img {
+                    width: 600px;
+                    height: 300px;
+                    border: 5px solid #f2f2f2;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.help {
+  width: 850px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .help .box {
+    width: 787px;
+    margin: 0 auto; }
+    .help .box .title {
+      font-size: 25px;
+      color: #333;
+      text-align: center;
+      padding-top: 20px;
+      line-height: 45px;
+      border-bottom: 1px solid #e1e1e1; }
+    .help .box .content {
+      padding-top: 20px; }
+      .help .box .content p {
+        line-height: 28px;
+        color: #333;
+        text-indent: 12px;
+        font-size: 14px; }
+      .help .box .content .help-img {
+        width: 630px;
+        height: 330px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 10px; }
+        .help .box .content .help-img img {
+          width: 600px;
+          height: 300px;
+          border: 5px solid #f2f2f2;
+          margin: 0 auto; }
