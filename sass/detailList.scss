@@ -1,0 +1,148 @@
+.detail-list {
+    padding: 15px 0;
+    .navbar {
+        width: 150px;
+        overflow: hidden;
+        border: 1px solid #d8d8d8;
+        background: #f2f2f2;
+        border-bottom: 0;
+        .title {
+            width: auto;
+            overflow: hidden;
+            border-bottom: 1px solid #d8d8d8;
+            line-height: 35px;
+            font-size: 14px;
+            color: #828282;
+            padding-left: 10px;
+        }
+        .content {
+            width: auto;
+            overflow: hidden;
+            border-bottom: 1px solid #d8d8d8;
+            color: #5b5b5b;
+            font-size: 14px;
+            color: #828282;
+            line-height: 30px;
+            .top {
+                padding-left: 10px;
+            }
+            .bottom {
+                background-color: white;
+                padding-left: 10px;
+                ul {
+                    width: 100%;
+                    overflow: hidden;
+                    color: #999;
+                    line-height: 30px;
+                    border-bottom: 1px solid #d8d8d8;
+                    li {
+                        padding-left: 17px;
+                    }
+                }
+            }
+        }
+    }
+    .search {
+        width: 1028px;
+        .search-sort {
+            border: 1px solid #d8d8d8;
+            background: #f1f1f1;
+            padding: 6px 8px;
+            .left {
+                ul {
+                    li {
+                        background: #fff;
+                        height: 23px;
+                        line-height: 18px;
+                        border: 1px solid #ccc;
+                        padding: 0 10px;
+                        margin-right: 3px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .page {
+                margin-right: 10px;
+            }
+            .num {
+                margin-right: 10px;
+            }
+        }
+        .search-content {
+            margin-top: 10px;
+            ul {
+                .list {
+                    width: 245px;
+                    overflow: hidden;
+                    border: 1px solid #ddd;
+                    background: #fff;
+                    margin-right: 10px;
+                    margin-bottom: 13px;
+                    .image {
+                        width: 226px;
+                        height: 226px;
+                        background: #fff;
+                        margin: 0 auto;
+                        margin-top: 8px;
+                        img {
+                            width: 226px;
+                            height: 226px;
+                        }
+                    }
+                    .price {
+                        padding: 8px;
+                        color: #e4393c;
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                    .description {
+                        padding: 0 8px;
+                        line-height: 20px;
+                        margin-bottom: 8px;
+                        a {
+                            padding: 0 8px;
+                            line-height: 20px;
+                            margin-bottom: 8px;
+                            font-size: 13px;
+                            color: #666;
+                            span {
+                                color: #db2929;
+                            }
+                        }
+                    }
+                    ul {
+                        border-top: 1px solid #ddd;
+                        li {
+                            width: 43%;
+                            line-height: 30px;
+                            text-indent: 8px;
+                            border-left: 1px solid #ddd;
+
+                            &:first-child {
+                                border-left: 0 none;
+                            }
+                            p {
+                                span {
+                                    color: #df3032;
+                                    font-weight: bold;
+                                    font-family: Verdana;
+                                    font-size: 12px;
+                                }
+                            }
+                            &.store {
+                                width: 14%;
+                                cursor: pointer;
+                                padding: 0;
+                                div {
+                                    height: 31px;
+                                    background-color: #df3032;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
